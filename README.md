@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-<h1 align="center">Welcome❗️Добро пожаловать❗️ 欢迎❗️ स्वागत है❗️ Bienvenidos❗️</h1>
+<h1 align="center">Welcome❗️ 欢迎❗️ स्वागत है❗️ Добро пожаловать❗️ Bienvenidos❗️</h1>
 
 <p align="center">👁️ a visual snapshot of some of my projects 👁️</p>
 
