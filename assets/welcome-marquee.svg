@@ -16,7 +16,7 @@
     text {
       font: 700 30px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
       dominant-baseline: middle;
-      fill: currentColor; /* inherits from README's color context */
+      fill: gray; /* inherits from README's color context */
     }
   </style>
 
