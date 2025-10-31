@@ -9,27 +9,29 @@
     <clipPath id="clip">
       <rect x="0" y="0" width="1000" height="56"/>
     </clipPath>
+    <style>
+      /* Use system font and inherit color when possible */
+      text {
+        font: 700 30px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+        dominant-baseline: middle;
+        fill: currentColor; /* try to match README text color */
+      }
+      /* Ensure readability on GitHub where currentColor may not pass through for <img> SVGs */
+      @media (prefers-color-scheme: dark)  { text { fill: #ffffff; } }
+      @media (prefers-color-scheme: light) { text { fill: #000000; } }
+    </style>
   </defs>
-
-  <style>
-    /* Feel free to adjust font weight/size */
-    text {
-      font: 700 30px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
-      dominant-baseline: middle;
-      fill: gray; /* inherits from README's color context */
-    }
-  </style>
 
   <g clip-path="url(#clip)">
     <!-- We render the same string twice. Each is forced to EXACTLY 1000px using textLength.
          Then we translate the pair by -1000px for a perfect tile with no seam. -->
     <g id="lane">
-      <!-- Add a leading + trailing separator so the wrap feels natural -->
+      <!-- Add leading/trailing bullets so the wrap feels natural -->
       <text x="0"   y="28" textLength="1000" lengthAdjust="spacingAndGlyphs">
-         Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvneue❗️ स्वागत है❗️ Bienvenidos❗️ 
+        • Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ •
       </text>
       <text x="1000" y="28" textLength="1000" lengthAdjust="spacingAndGlyphs">
-         Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvneue❗️ स्वागत है❗️ Bienvenidos❗️ 
+        • Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ •
       </text>
 
       <!-- Animate exactly one lane width -->
