@@ -14,10 +14,10 @@
 ---
 
 <p align="center">
-  <img src="assets/psyche.png" width="200" alt="Project Image 1" />
-  <img src="assets/analyzethis.png" width="200" alt="Project Image 2" />
-  <img src="assets/md.png" width="200" alt="Project Image 3" />
-  <img src="assets/lavalakes.png" width="200" alt="Project Image 4" />
+  <img src="assets/psyche.png" width="200" alt="NASA Psyche image" />
+  <img src="assets/analyzethis.png" width="200" alt="Analyze this logo" />
+  <img src="assets/md.png" width="200" alt="Screenshot of personal website" />
+  <img src="assets/lavalakes.png" width="200" alt="Lava Lakes of the World homepage" />
 </p>
 
 ---
