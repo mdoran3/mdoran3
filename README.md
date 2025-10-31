@@ -11,14 +11,26 @@
 
 <p align="center">👁️ a visual snapshot of some of my projects 👁️</p>
 
+
 ---
 
-<p align="center">
-  <img src="assets/psyche.png" width="200" alt="NASA Psyche image" />
-  <img src="assets/analyzethis.png" width="200" alt="Analyze this logo" />
-  <img src="assets/md.png" width="200" alt="Screenshot of personal website" />
-  <img src="assets/lavalakes.png" width="200" alt="Lava Lakes of the World homepage" />
-</p>
+<!-- Grid with thick inner/outer lines (uses only HTML attributes) -->
+<table align="center" bgcolor="#00BFFF" cellspacing="8" cellpadding="8">
+  <tr>
+    <td bgcolor="#0d1117" align="center">
+      <img src="assets/psyche.png" width="200" alt="NASA Psyche image">
+    </td>
+    <td bgcolor="#0d1117" align="center">
+      <img src="assets/analyzethis.png" width="200" alt="Analyze This logo">
+    </td>
+    <td bgcolor="#0d1117" align="center">
+      <img src="assets/md.png" width="200" alt="Screenshot of personal website">
+    </td>
+    <td bgcolor="#0d1117" align="center">
+      <img src="assets/lavalakes.png" width="200" alt="Lava Lakes of the World homepage">
+    </td>
+  </tr>
+</table>
 
 ---
 
