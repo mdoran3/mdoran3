@@ -16,10 +16,10 @@
   <g clip-path="url(#clip)">
     <g id="lane">
       <text x="0" y="28" textLength="1000" lengthAdjust="spacingAndGlyphs">
-        • Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ •
+         Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ 
       </text>
       <text x="1000" y="28" textLength="1000" lengthAdjust="spacingAndGlyphs">
-        • Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ •
+         Welcome❗️ 欢迎❗️ Добро пожаловать❗️ Bienvenue❗️ स्वागत है❗️ Bienvenidos❗️ 
       </text>
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="12s" repeatCount="indefinite"/>
     </g>
