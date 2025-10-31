@@ -1,0 +1,27 @@
+<!-- assets/welcome-marquee.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48" role="img" aria-label="Welcome in multiple languages">
+  <defs>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="800" height="48"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text {
+      font: 700 28px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+      fill: #ffffff;
+    }
+    svg {
+      background: transparent;
+    }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <g id="lane">
+      <text x="0" y="34">Welcome❗️ 欢迎❗️ Добро пожаловать❗️ स्वागत है❗️ Bienvenidos❗️ • </text>
+      <text x="800" y="34">Welcome❗️ 欢迎❗️ Добро пожаловать❗️ स्वागत है❗️ Bienvenidos❗️ • </text>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 0" to="-800 0" dur="12s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
