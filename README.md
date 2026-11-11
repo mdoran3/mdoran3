@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://mitchelld.net" target="_blank" style="text-decoration: none; color: inherit;">
-    🔗 Mitchell D. | AI Software x Audio Engineer 🧑🏻‍💻🎧 
+    🔗 Mitchell D. | Software Engineer · AI & Audio 🧑🏻‍💻🎧 
   </a>
 </h1>
 
